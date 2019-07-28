@@ -1,7 +1,7 @@
 # homebridge-mi-airpurifier
 [![npm version](https://badge.fury.io/js/homebridge-mi-airpurifier.svg)](https://badge.fury.io/js/homebridge-mi-airpurifier)
 
-XiaoMi air purifier plugins for HomeBridge.   
+XiaoMi air purifier plugins for HomeBridge. This fork is specifically for 2S to include favorite manual speeds when turning the 2S on from homebridge.  
 Thanks for [nfarina](https://github.com/nfarina)(the author of [homebridge](https://github.com/nfarina/homebridge)), [OpenMiHome](https://github.com/OpenMiHome/mihome-binary-protocol), [aholstenson](https://github.com/aholstenson)(the author of [miio](https://github.com/aholstenson/miio)), [licuhui](https://github.com/licuhui), [superszy](https://github.com/superszy), all other developer and testers.   
 
 **Note: I have only a part of these devices, so some devices don't have tested. If you find bugs, please submit them to [issues](https://github.com/YinHangCode/homebridge-mi-airpurifier/issues) or [QQ Group: 107927710](//shang.qq.com/wpa/qunwpa?idkey=8b9566598f40dd68412065ada24184ef72c6bddaa11525ca26c4e1536a8f2a3d).**   
