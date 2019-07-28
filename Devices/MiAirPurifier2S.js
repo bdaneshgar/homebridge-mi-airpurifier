@@ -234,8 +234,7 @@ MiAirPurifier2SAirPurifierAccessory.prototype.getServices = function() {
                 if(result[0] === "favorite") {
                     callback(null, Characteristic.TargetAirPurifierState.MANUAL);
                 } else {
-                   // callback(null, Characteristic.TargetAirPurifierState.AUTO);
-			callback(null, Characteristic.TargetAirPurifierState.MANUAL
+                    callback(null, Characteristic.TargetAirPurifierState.AUTO);
                 }
             }).catch(function(err) {
                 that.platform.log.error("[MiAirPurifierPlatform][ERROR]MiAirPurifier2SAirPurifierAccessory - TargetAirPurifierState - getTargetAirPurifierState: " + err);
